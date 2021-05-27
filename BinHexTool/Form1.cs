@@ -248,7 +248,7 @@ namespace BinHexTool
                 {
                     char temp = Convert.ToChar(txtASCII.Text);
                     charValue = Convert.ToInt64(temp);
-                    MessageBox.Show(charValue.ToString());
+                    // MessageBox.Show(charValue.ToString());
                     txtDec.Text = Convert.ToString(charValue);
                     txtBin.Text = @"0b" + Convert.ToString(Convert.ToInt64(charValue), bin);
                     txtHex.Text = @"0x" + Convert.ToString(Convert.ToInt64(charValue), hex);
